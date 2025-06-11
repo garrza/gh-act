@@ -2,6 +2,7 @@
   "name": "registration-form-app",
   "version": "1.0.0",
   "description": "A simple registration form with CI/CD",
+  "type": "module",
   "main": "script.js",
   "scripts": {
     "test": "jest"
@@ -11,6 +12,7 @@
     "jest-environment-jsdom": "^29.7.0"
   },
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "transform": {}
   }
 } 

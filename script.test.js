@@ -1,3 +1,5 @@
+import { validateForm } from "./script.js";
+
 describe("Form Validation", () => {
   beforeEach(() => {
     document.body.innerHTML = `
@@ -9,7 +11,6 @@ describe("Form Validation", () => {
                 <div id="message"></div>
             </form>
         `;
-    require("./script.js");
   });
 
   test("should validate username length", () => {
